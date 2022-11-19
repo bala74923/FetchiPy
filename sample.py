@@ -17,6 +17,7 @@
 # print(val)
 from openpyxl.utils import get_column_letter
 import openpyxl
+'''
 path = 'OUTPUT\\III year.xlsx'
 output_path = 'OUTPUT\\III year space.xlsx'
 wb = openpyxl.load_workbook(path)
@@ -40,3 +41,9 @@ for ws_name in wb.sheetnames:
     adjust_column_width(4,9,64,11,ws)
 
 wb.save(output_path)
+'''
+import requests
+username = "user4029ok"
+url = 'leetcode.com/graphql/?query=query { matchedUser(username: "user4029ok") { username submitStats: submitStatsGlobal { acSubmissionNum { difficulty count submissions } } } }'
+resp = requests.get(url)
+print(resp)

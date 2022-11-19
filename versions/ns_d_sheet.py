@@ -1,5 +1,5 @@
 # from bs4 import BeautifulSoup  not used so removed
-import os
+import os 
 import time
 
 import requests
@@ -11,12 +11,12 @@ from openpyxl.chart.series import DataPoint
 
 #added max row and column width adjustment than results with page link
 start_time = time.time()
-CONTEST_NAME = "weekly contest 308"
+CONTEST_NAME = "biweekly contest 89"
 #contest_name = "weekly-contest-307"  # inpghggut
 contest_name = CONTEST_NAME.lower().strip().replace(' ','-')
 # score_array = [3,4,5,6]  # input will be updated soon
 path = "D:\\MiniProject\\FetchiPy\\INPUT"  # path where input is fetched
-output_path = "D:\\MiniProject\\FetchiPy\\OUTPUT"
+output_path = "D:\\MiniProject\\FetchiPy\\OUTPUT\\"
 dir_list = os.listdir(path)
 path_list = []
 for file in dir_list:
