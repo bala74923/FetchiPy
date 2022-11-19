@@ -1,5 +1,5 @@
 import threading
-import _updating
+import v_1_0
 # not needed ,available in _updating
 def giveMeThreads(threadNo,totalPages):
     interval = int(totalPages/threadNo)
