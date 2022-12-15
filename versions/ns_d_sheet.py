@@ -11,7 +11,7 @@ from openpyxl.chart.series import DataPoint
 
 #added max row and column width adjustment than results with page link
 start_time = time.time()
-CONTEST_NAME = "biweekly contest 89"
+CONTEST_NAME = "weekly contest 323"
 #contest_name = "weekly-contest-307"  # inpghggut
 contest_name = CONTEST_NAME.lower().strip().replace(' ','-')
 # score_array = [3,4,5,6]  # input will be updated soon
