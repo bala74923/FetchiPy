@@ -5,7 +5,7 @@ from email.mime.application import MIMEApplication
 import smtplib
 def send(file_list,CONTEST_NAME,to_address):
     message=MIMEMultipart()
-    message["from"]="FetchiPy"
+    message["from"]= "FetchiPy"
     # to addresss here
     message["to"]= to_address
 
