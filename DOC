@@ -1,0 +1,24 @@
+why fetchiPy
+--------------
+    my institution needs to track the level of students ,
+    if there is a bot it will be lot better they thought
+
+Bala
+=======
+i wrote a python script that requests all the pages (1-1000) at store all the
+json information in map so later i can use it,
+it takes excel format as input which should contain column name as "leetcode id"
+it takes all the username's inside that column , and search for same username in map
+which holds the information and create a xl sheet which is generated like report
+eg. college wise top performers , department wise, class wise
+
+after that i use BS algorithm to find last page of contest  and Multi Threading
+to optimise the runtime from 20 mins to 3 mins
+
+*now i am working on  google api connectivity for output files
+
+gowreesh
+==========
+after that gowreesh integrate it with a mail module that sends the all reports
+to the mail id given
+
